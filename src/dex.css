@@ -1,0 +1,121 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  background-image: url("./imagenes/dex.jpg");
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-pokemon {
+max-width: 800px;
+background-color: #7a102b;
+color:#3dc9d3;
+border-radius: 20px;
+box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+0 15px 40px rgba(0,0,0, 0.1);
+display: flex;
+padding:3rem;
+margin: 0 1.5rem;
+}
+
+.volver{
+  background-color: grey;
+  color:violet;
+  border-radius:5px;
+}
+.contenedor-pokemon:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.normal {
+  background-color: beige;
+  color: black;
+  border-radius:5px;
+}
+.fire {
+  background-color: orange;
+  color: white;
+  border-radius:5px;
+}
+.grass {
+  background-color: green;
+  color: white;
+  border-radius:5px;
+}
+.water {
+  background-color: blue;
+  color: white;
+  border-radius:5px;
+}
+.flying{
+  background-color: skyblue;
+  color:black;
+  border-radius:5px;
+}
+.ice {
+  background-color: lightblue;
+  color: black;
+  border-radius:5px;
+}
+.electric {
+  background-color: gold;
+  color: black;
+  border-radius:5px;
+}
+.bug {
+  background-color: yellowgreen;
+  color: black;
+  border-radius:5px;
+}
+.ghost {
+  background-color: purple;
+  color: white;
+  border-radius:5px;
+}
+.rock {
+  background-color: sienna;
+  color: white;
+  border-radius:5px;
+}
+.ground {
+  background-color: burlywood;
+  color: black;
+  border-radius:5px;
+}
+.steel {
+  background-color: silver;
+  color: black;
+  border-radius:5px;
+}
+.dark {
+  background-color: darkslategray;
+  color: white;
+  border-radius:5px;
+}
+.psychic {
+  background-color: palevioletred;
+  color: white;
+  border-radius:5px;
+}
+.fairy {
+  background-color: pink;
+  color: black;
+  border-radius:5px;
+}
+.dragon {
+  background-color: teal;
+  color: white;
+  border-radius:5px;
+}
+.poison {
+  background-color: darkviolet;
+  color: white;
+  border-radius:5px;
+}

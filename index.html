@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/src/imagenes/icono.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <h2>Regiones</h2>
+    <div class="contenedor_regiones">
+      <button id="kanto" class="card">
+        <img
+          src="/src/imagenes/mapaKanto.png"
+          alt="Mapa de Kanto"
+          class="mapa"
+        />
+        Kanto
+      </button>
+
+      <button id="johto" class="card">
+        <img
+          src="/src/imagenes/mapaJohto.png"
+          alt="Mapa de Johto"
+          class="mapa"
+        />
+        Johto
+      </button>
+
+      <button id="hoenn" class="card">
+        <img
+          src="/src/imagenes/mapaHoenn.png"
+          alt="Mapa de Hoenn"
+          class="mapa"
+        />
+        Hoenn
+      </button>
+    </div>
+    <div class="contenedor-tabla">
+      <table id="lista" style="display: none">
+        <tr>
+          <td>Id</td>
+          <td>Nombre</td>
+          <td>Ver</td>
+        </tr>
+      </table>
+    </div>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
